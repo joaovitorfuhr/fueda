@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :groups
+
   root 'homr#indexl'
   get 'home/index'
 
